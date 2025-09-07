@@ -104,6 +104,7 @@ print("\ntask_6")
 
 import random
 
+#rock paper scissor logger
 rps_logger = logging.getLogger('rps')
 rps_logger.addHandler(logging.FileHandler('rps.log'))
 rps_logger.setLevel(logging.INFO)
@@ -133,5 +134,27 @@ print(f"{"player" if player_score == 3 else "computer"} won the game.")
 rps_logger.info(f"{"player" if player_score == 3 else "computer"} won the game!")
 
 
+# task_7
 
+print("\ntask_7")
 
+gamer1 = "gamer 1"
+gamer2 = "gamer 2"
+
+while True:
+    roll1 = random.randint(1,6)
+    roll2 = random.randint(1,6)
+    print(f"{gamer1} rolls: {roll1}")
+    print(f"{gamer2} rolls: {roll2}")
+    if roll1 == roll2:
+        print("tie! roll again.\n")
+        continue
+    winner, loser = (gamer1, gamer2) if roll1 > roll2 else (gamer2, gamer1)
+    print(f"{winner} wins!")
+
+    answer = input(f"{winner}, do you want to give {loser} another chance? (yes/no): ")
+    if answer != "yes":
+        print("game over.")
+        break
+
+    print("--next round--")
