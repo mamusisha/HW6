@@ -158,3 +158,24 @@ while True:
         break
 
     print("--next round--")
+
+
+# task_8
+
+print("\ntask_8")
+
+words = ["apple", "banana", "orange", "grape", "mango",
+         "lemon", "cherry", "peach", "plum", "kiwi"]
+
+selected = random.sample(words, 2)
+deleted = []
+for word in selected:
+    char_list = list(word)
+    for i in random.sample(range(len(char_list)), 2):
+        char_list[i] = "_"
+    deleted.append("".join(char_list))
+
+guesses = [input(f"enter full word for '{w}': ") for w in deleted]
+score = sum(guesses[i] == selected[i] for i in range(2))
+
+print("victory!" if score == 2 else "50%" if score == 1 else "defeat!")

@@ -23,3 +23,10 @@ player: scissor, computer: scissor, result: it's a tie!
 player: rock, computer: rock, result: it's a tie!
 player: paper, computer: rock, result: player wins!
 player won the game!
+player: rock, computer: paper, result: computer wins!
+player: rock, computer: scissor, result: player wins!
+player: rock, computer: paper, result: computer wins!
+player: rock, computer: scissor, result: player wins!
+player: rock, computer: rock, result: it's a tie!
+player: rock, computer: scissor, result: player wins!
+player won the game!
