@@ -1,0 +1,25 @@
+player: scissor, computer: rock, result: computer wins!
+player: rock, computer: rock, result: it's a tie!
+player: rock, computer: paper, result: computer wins!
+player: rock, computer: rock, result: it's a tie!
+player: rock, computer: rock, result: it's a tie!
+player: paper, computer: paper, result: it's a tie!
+player: paper, computer: paper, result: it's a tie!
+player: rock, computer: paper, result: computer wins!
+computer won the game!
+player: rock, computer: rock, result: it's a tie!
+player: paper, computer: scissor, result: computer wins!
+player: rock, computer: paper, result: computer wins!
+player: paper, computer: paper, result: it's a tie!
+player: scissor, computer: paper, result: player wins!
+player: paper, computer: rock, result: player wins!
+player: scissor, computer: scissor, result: it's a tie!
+player: rock, computer: rock, result: it's a tie!
+player: rock, computer: paper, result: computer wins!
+computer won the game!
+player: rock, computer: scissor, result: player wins!
+player: paper, computer: rock, result: player wins!
+player: scissor, computer: scissor, result: it's a tie!
+player: rock, computer: rock, result: it's a tie!
+player: paper, computer: rock, result: player wins!
+player won the game!

@@ -3,4 +3,6 @@ question: capital of france? - answer: paris
 question: 2 + 2? - answer: 4
 question: mix red and blue? - answer: purple
 question: largest planet in our solar system? - answer: jupiter
-question: best programming language? - answer: python
+question: best programming language? - answer: pyhton
+
+
