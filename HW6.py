@@ -20,3 +20,21 @@ while True:
         print("invalid input or index out of range.")
     if input("continue? (y/n): ").lower() != 'y':
         break
+
+
+# task_3
+
+def counter(func):
+    func.count = 0
+    def wrapper(*args, **kwargs):
+        func.count += 1
+        print(f"call: {func.count}")
+        return func(*args, **kwargs)
+    return wrapper
+
+@counter
+def say():
+    print("Hi")
+
+for _ in range(5):
+    say()
